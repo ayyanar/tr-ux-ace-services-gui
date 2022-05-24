@@ -1,0 +1,31 @@
+{
+  "name": "tr-ux-ace-services",
+  "version": "0.0.1",
+  "peerDependencies": {
+    "@angular/common": "^13.3.0",
+    "@angular/core": "^13.3.0"
+  },
+  "dependencies": {
+    "tslib": "^2.3.0"
+  },
+  "module": "fesm2015/tr-ux-ace-services.mjs",
+  "es2020": "fesm2020/tr-ux-ace-services.mjs",
+  "esm2020": "esm2020/tr-ux-ace-services.mjs",
+  "fesm2020": "fesm2020/tr-ux-ace-services.mjs",
+  "fesm2015": "fesm2015/tr-ux-ace-services.mjs",
+  "typings": "tr-ux-ace-services.d.ts",
+  "exports": {
+    "./package.json": {
+      "default": "./package.json"
+    },
+    ".": {
+      "types": "./tr-ux-ace-services.d.ts",
+      "esm2020": "./esm2020/tr-ux-ace-services.mjs",
+      "es2020": "./fesm2020/tr-ux-ace-services.mjs",
+      "es2015": "./fesm2015/tr-ux-ace-services.mjs",
+      "node": "./fesm2015/tr-ux-ace-services.mjs",
+      "default": "./fesm2020/tr-ux-ace-services.mjs"
+    }
+  },
+  "sideEffects": false
+}
