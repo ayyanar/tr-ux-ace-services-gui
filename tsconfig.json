@@ -14,8 +14,7 @@
     "strictPropertyInitialization": false,
     "sourceMap": true,
     "paths": {
-      "lib": [
-        "dist/lib/my-lib",
+      "lib": [       
         "dist/lib"
       ]
     },
